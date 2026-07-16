@@ -10,6 +10,240 @@
 @prefix qunit: <http://qudt.org/vocab/unit/> .
 
 
+preloaded:video_temporal_data_object a datin:DataObjectConcept;
+    rdfs:label "Video / Temporal Data Object".
+preloaded:vector_graphic_plot_data_object a datin:DataObjectConcept;
+    rdfs:label "Vector Graphic / Plot Data Object".
+preloaded:spatial_3d_model_data_object a datin:DataObjectConcept;
+    rdfs:label "Spatial 3D Model Data Object".
+preloaded:simple_tabular_data_object a datin:DataObjectConcept;
+    rdfs:label "Simple Tabular Data Object".
+preloaded:sequence_polymer_data_object a datin:DataObjectConcept;
+    rdfs:label "Sequence / Polymer Data Object".
+preloaded:datin-generated_raster_image_data_object a datin:DataObjectConcept;
+    rdfs:label "datin-Generated Raster Image Data Object".
+preloaded:raster_image_data_object a datin:DataObjectConcept;
+    rdfs:label "Raster Image Data Object".
+preloaded:proprietary_instrument_binary_data_object a datin:DataObjectConcept;
+    rdfs:label "Proprietary Instrument Binary Data Object".
+preloaded:molecular_chemical_structure_data_object a datin:DataObjectConcept;
+    rdfs:label "Molecular / Chemical Structure Data Object".
+preloaded:hierarchical_text_data_object a datin:DataObjectConcept;
+    rdfs:label "Hierarchical Text Data Object".
+preloaded:graph_network_data_object a datin:DataObjectConcept;
+    rdfs:label "Graph / Network Data Object".
+preloaded:fileless_data_object a datin:DataObjectConcept;
+    rdfs:label "Fileless Data Object".
+preloaded:document_data_object a datin:DataObjectConcept;
+    rdfs:label "Document Data Object".
+preloaded:container_format_data_object a datin:DataObjectConcept;
+    rdfs:label "Container Format Data Object".
+preloaded:complex_tabular_data_object a datin:DataObjectConcept;
+    rdfs:label "Complex Tabular Data Object".
+preloaded:parquet_data_object a datin:DataObjectConcept;
+    rdfs:label "Parquet Data Object".
+preloaded:datin-generated_parquet_data_object a datin:DataObjectConcept;
+    rdfs:label "datin-Generated Parquet Data Object".
+preloaded:common_data_object a datin:DataObjectConcept;
+    rdfs:label "Common Data Object".
+preloaded:audio_waveform_data_object a datin:DataObjectConcept;
+    rdfs:label "Audio / Waveform Data Object".
+preloaded:cif a datin:MetadatumValueOption;
+    rdfs:label ".cif".
+preloaded:fasta a datin:MetadatumValueOption;
+    rdfs:label ".fasta".
+preloaded:flac a datin:MetadatumValueOption;
+    rdfs:label ".flac".
+preloaded:bin a datin:MetadatumValueOption;
+    rdfs:label ".bin".
+preloaded:sqlite a datin:MetadatumValueOption;
+    rdfs:label ".sqlite".
+preloaded:gas a datin:MetadatumValueOption;
+    rdfs:label "Gas".
+preloaded:mov a datin:MetadatumValueOption;
+    rdfs:label ".mov".
+preloaded:m a datin:MetadatumValueOption;
+    rdfs:label ".m".
+preloaded:tsv a datin:MetadatumValueOption;
+    rdfs:label ".tsv".
+preloaded:aac a datin:MetadatumValueOption;
+    rdfs:label ".aac".
+preloaded:eps a datin:MetadatumValueOption;
+    rdfs:label ".eps".
+preloaded:graphml a datin:MetadatumValueOption;
+    rdfs:label ".graphml".
+preloaded:vtk a datin:MetadatumValueOption;
+    rdfs:label ".vtk".
+preloaded:wav a datin:MetadatumValueOption;
+    rdfs:label ".wav".
+preloaded:tif a datin:MetadatumValueOption;
+    rdfs:label ".tif".
+preloaded:d a datin:MetadatumValueOption;
+    rdfs:label ".d".
+preloaded:bmp a datin:MetadatumValueOption;
+    rdfs:label ".bmp".
+preloaded:ogg a datin:MetadatumValueOption;
+    rdfs:label ".ogg".
+preloaded:raw a datin:MetadatumValueOption;
+    rdfs:label ".raw".
+preloaded:r a datin:MetadatumValueOption;
+    rdfs:label ".r".
+preloaded:ipynb a datin:MetadatumValueOption;
+    rdfs:label ".ipynb".
+preloaded:doc a datin:MetadatumValueOption;
+    rdfs:label ".doc".
+preloaded:mol a datin:MetadatumValueOption;
+    rdfs:label ".mol".
+preloaded:xls a datin:MetadatumValueOption;
+    rdfs:label ".xls".
+preloaded:slurry a datin:MetadatumValueOption;
+    rdfs:label "Slurry".
+preloaded:tex a datin:MetadatumValueOption;
+    rdfs:label ".tex".
+preloaded:jpeg a datin:MetadatumValueOption;
+    rdfs:label ".jpeg".
+preloaded:vacuum a datin:MetadatumValueOption;
+    rdfs:label "Vacuum".
+preloaded:dxf a datin:MetadatumValueOption;
+    rdfs:label ".dxf".
+preloaded:fits a datin:MetadatumValueOption;
+    rdfs:label ".fits".
+preloaded:czi a datin:MetadatumValueOption;
+    rdfs:label ".czi".
+preloaded:mp4 a datin:MetadatumValueOption;
+    rdfs:label ".mp4".
+preloaded:ppt a datin:MetadatumValueOption;
+    rdfs:label ".ppt".
+preloaded:gel a datin:MetadatumValueOption;
+    rdfs:label "Gel".
+preloaded:xlsx a datin:MetadatumValueOption;
+    rdfs:label ".xlsx".
+preloaded:yaml a datin:MetadatumValueOption;
+    rdfs:label ".yaml".
+preloaded:csv a datin:MetadatumValueOption;
+    rdfs:label ".csv".
+preloaded:yml a datin:MetadatumValueOption;
+    rdfs:label ".yml".
+preloaded:tiff a datin:MetadatumValueOption;
+    rdfs:label ".tiff".
+preloaded:solid a datin:MetadatumValueOption;
+    rdfs:label "Solid".
+preloaded:dat a datin:MetadatumValueOption;
+    rdfs:label ".dat".
+preloaded:xml a datin:MetadatumValueOption;
+    rdfs:label ".xml".
+preloaded:liquid a datin:MetadatumValueOption;
+    rdfs:label "Liquid".
+preloaded:foam a datin:MetadatumValueOption;
+    rdfs:label "Foam".
+preloaded:stl a datin:MetadatumValueOption;
+    rdfs:label ".stl".
+preloaded:fastq a datin:MetadatumValueOption;
+    rdfs:label ".fastq".
+preloaded:png a datin:MetadatumValueOption;
+    rdfs:label ".png".
+preloaded:fcs a datin:MetadatumValueOption;
+    rdfs:label ".fcs".
+preloaded:docx a datin:MetadatumValueOption;
+    rdfs:label ".docx".
+preloaded:jpg a datin:MetadatumValueOption;
+    rdfs:label ".jpg".
+preloaded:pdb a datin:MetadatumValueOption;
+    rdfs:label ".pdb".
+preloaded:md a datin:MetadatumValueOption;
+    rdfs:label ".md".
+preloaded:pdf a datin:MetadatumValueOption;
+    rdfs:label ".pdf".
+preloaded:gz a datin:MetadatumValueOption;
+    rdfs:label ".gz".
+preloaded:webm a datin:MetadatumValueOption;
+    rdfs:label ".webm".
+preloaded:glb a datin:MetadatumValueOption;
+    rdfs:label ".glb".
+preloaded:pptx a datin:MetadatumValueOption;
+    rdfs:label ".pptx".
+preloaded:sh a datin:MetadatumValueOption;
+    rdfs:label ".sh".
+preloaded:h5 a datin:MetadatumValueOption;
+    rdfs:label ".h5".
+preloaded:tar a datin:MetadatumValueOption;
+    rdfs:label ".tar".
+preloaded:py a datin:MetadatumValueOption;
+    rdfs:label ".py".
+preloaded:arrow a datin:MetadatumValueOption;
+    rdfs:label ".arrow".
+preloaded:gif a datin:MetadatumValueOption;
+    rdfs:label ".gif".
+preloaded:emulsion a datin:MetadatumValueOption;
+    rdfs:label "Emulsion".
+preloaded:txt a datin:MetadatumValueOption;
+    rdfs:label ".txt".
+preloaded:dcm a datin:MetadatumValueOption;
+    rdfs:label ".dcm".
+preloaded:step a datin:MetadatumValueOption;
+    rdfs:label ".step".
+preloaded:json a datin:MetadatumValueOption;
+    rdfs:label ".json".
+preloaded:granular_powder a datin:MetadatumValueOption;
+    rdfs:label "Granular Powder".
+preloaded:obj a datin:MetadatumValueOption;
+    rdfs:label ".obj".
+preloaded:stp a datin:MetadatumValueOption;
+    rdfs:label ".stp".
+preloaded:nc a datin:MetadatumValueOption;
+    rdfs:label ".nc".
+preloaded:svg a datin:MetadatumValueOption;
+    rdfs:label ".svg".
+preloaded:aerosol a datin:MetadatumValueOption;
+    rdfs:label "Aerosol".
+preloaded:ttl a datin:MetadatumValueOption;
+    rdfs:label ".ttl".
+preloaded:mkv a datin:MetadatumValueOption;
+    rdfs:label ".mkv".
+preloaded:zip a datin:MetadatumValueOption;
+    rdfs:label ".zip".
+preloaded:hdf5 a datin:MetadatumValueOption;
+    rdfs:label ".hdf5".
+preloaded:avi a datin:MetadatumValueOption;
+    rdfs:label ".avi".
+preloaded:parquet a datin:MetadatumValueOption;
+    rdfs:label ".parquet".
+preloaded:mp3 a datin:MetadatumValueOption;
+    rdfs:label ".mp3".
+preloaded:amount_or_size a datin:GroupMetadatumConcept;
+    rdfs:label "Amount or Size".
+preloaded:concentration_for_solutions a datin:GroupMetadatumConcept;
+    rdfs:label "Concentration (for solutions)".
+preloaded:multiple_components a datin:GroupMetadatumConcept;
+    rdfs:label "Multiple Components".
+preloaded:type_of_solute a datin:MaterialDesignatorConcept;
+    rdfs:label "Type of Solute".
+preloaded:type_of_solvent a datin:MaterialDesignatorConcept;
+    rdfs:label "Type of Solvent".
+preloaded:type_of_element a datin:MaterialDesignatorConcept;
+    rdfs:label "Type of Element".
+preloaded:type_of_material a datin:MaterialDesignatorConcept;
+    rdfs:label "Type of Material".
+preloaded:chemical_formula a datin:NameConcept;
+    rdfs:label "Chemical Formula".
+preloaded:phase_of_element a datin:NameConcept;
+    rdfs:label "Phase of Element".
+preloaded:file_path a datin:NameConcept;
+    rdfs:label "File Path".
+preloaded:phase_of_solvent a datin:NameConcept;
+    rdfs:label "Phase of Solvent".
+preloaded:phase_of_material a datin:NameConcept;
+    rdfs:label "Phase of Material".
+preloaded:medium_type a datin:NameConcept;
+    rdfs:label "Medium Type".
+preloaded:phase_of_solute a datin:NameConcept;
+    rdfs:label "Phase of Solute".
+preloaded:inchi a datin:NameConcept;
+    rdfs:label "InChI".
+preloaded:smiles a datin:NameConcept;
+    rdfs:label "SMILES".
+preloaded:inchikey a datin:NameConcept;
+    rdfs:label "InChIKey".
 preloaded:dispatch_time a datin:DateTimeConcept;
     rdfs:label "Dispatch Time".
 preloaded:delivery_time a datin:DateTimeConcept;
