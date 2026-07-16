@@ -1,0 +1,50 @@
+@prefix datin: <https://w3id.org/datin/core/> .
+@prefix preloaded: <https://w3id.org/datin/preloaded/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
+@prefix onto: <https://w3id.org/listdb/onto#> .
+@prefix chebi: <https://www.ebi.ac.uk/chebi/> .
+@prefix qunit: <http://qudt.org/vocab/unit/> .
+
+
+datin:Unit a skos:Concept;
+    rdfs:label "Unit".
+datin:NumericConcept a skos:Concept;
+    rdfs:label "Quantity".
+datin:DateTimeConcept a skos:Concept;
+    rdfs:label "Date/Time".
+datin:NameConcept a skos:Concept;
+    rdfs:label "Name".
+datin:MaterialDesignatorConcept a skos:Concept;
+    rdfs:label "Material Designator".
+datin:GroupMetadatumConcept a skos:Concept;
+    rdfs:label "Group Metadatum".
+datin:MetadatumValueOption a skos:Concept;
+    rdfs:label "Metadatum Value Option".
+datin:DataObjectConcept a skos:Concept;
+    rdfs:label "Data Object".
+datin:Purpose a skos:Concept;
+    rdfs:label "Purpose".
+datin:ObjectSpatialModel a skos:Concept;
+    rdfs:label "Spatial Model".
+datin:FabricationPurpose a skos:Concept;
+    rdfs:label "Fabrication Purpose";
+    skos:broader datin:Purpose.
+datin:PerformanceTestingPurpose a skos:Concept;
+    rdfs:label "Performance Testing Purpose";
+    skos:broader datin:Purpose.
+datin:ProcessingPurpose a skos:Concept;
+    rdfs:label "Processing Purpose";
+    skos:broader datin:Purpose.
+datin:PropertiesCharacterizationPurpose a skos:Concept;
+    rdfs:label "Properties Characterization Purpose";
+    skos:broader datin:Purpose.
+datin:RightCircularCylinderModel a skos:Concept;
+    rdfs:label "Cylinder (Right, Circular)";
+    skos:broader datin:ObjectSpatialModel.
+datin:SphereModel a skos:Concept;
+    rdfs:label "Sphere";
+    skos:broader datin:ObjectSpatialModel.
