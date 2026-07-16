@@ -1,0 +1,28 @@
+@prefix datin: <https://w3id.org/datin/core/> .
+@prefix preloaded: <https://w3id.org/datin/preloaded/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+datin:Unit a skos:Concept;
+    rdfs:label "Unit".
+datin:NumericConcept a skos:Concept;
+    rdfs:label "Quantity".
+datin:DateTimeConcept a skos:Concept;
+    rdfs:label "Date/Time".
+datin:Purpose a skos:Concept;
+    rdfs:label "Purpose".
+datin:ObjectSpatialModel a skos:Concept;
+    rdfs:label "Spatial Model".
+datin:FabricationPurpose a datin:Purpose;
+    rdfs:label "Fabrication Purpose".
+datin:PerformanceTestingPurpose a datin:Purpose;
+    rdfs:label "Performance Testing Purpose".
+datin:ProcessingPurpose a datin:Purpose;
+    rdfs:label "Processing Purpose".
+datin:PropertiesCharacterizationPurpose a datin:Purpose;
+    rdfs:label "Properties Characterization Purpose".
+datin:RightCircularCylinderModel a datin:ObjectSpatialModel;
+    rdfs:label "Cylinder (Right, Circular)".
+datin:SphereModel a datin:ObjectSpatialModel;
+    rdfs:label "Sphere".
