@@ -1,0 +1,8 @@
+@prefix datin: <https://w3id.org/datin/core/> .
+@prefix preloaded: <https://w3id.org/datin/preloaded/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+
+preloaded:btu_international_table_inch_per_hour_square_foot_degree_fahrenheit a datin:Unit;
+    rdfs:label "BTU (international table) inch per hour square foot degree Fahrenheit".
