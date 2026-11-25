@@ -4,12 +4,12 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
-@prefix onto: <https://w3id.org/listdb/onto#> .
-@prefix chebi: <https://www.ebi.ac.uk/chebi/> .
 @prefix qunit: <http://qudt.org/vocab/unit/> .
+@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
+@prefix chebi: <https://www.ebi.ac.uk/chebi/> .
+@prefix onto: <https://w3id.org/listdb/onto#> .
 
 
-preloaded:magnetic_flux_density a datin:NumericConcept;
+preloaded:magnetic_flux_density skos:closeMatch quantitykind:MagneticFluxDensity;
     rdfs:label "Magnetic Flux Density";
-    skos:closeMatch quantitykind:MagneticFluxDensity.
+    a datin:NumericConcept.
