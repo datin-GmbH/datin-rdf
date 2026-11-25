@@ -4,12 +4,12 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
-@prefix onto: <https://w3id.org/listdb/onto#> .
-@prefix chebi: <https://www.ebi.ac.uk/chebi/> .
 @prefix qunit: <http://qudt.org/vocab/unit/> .
+@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
+@prefix chebi: <https://www.ebi.ac.uk/chebi/> .
+@prefix onto: <https://w3id.org/listdb/onto#> .
 
 
-preloaded:kilocalorie_thermochemical_per_minute a datin:Unit;
+preloaded:kilocalorie_thermochemical_per_minute skos:closeMatch qunit:KiloCAL_TH-PER-MIN;
     rdfs:label "kilocalorie (thermochemical) per minute";
-    skos:closeMatch qunit:KiloCAL_TH-PER-MIN.
+    a datin:Unit.

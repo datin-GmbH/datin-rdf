@@ -4,12 +4,12 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
-@prefix onto: <https://w3id.org/listdb/onto#> .
-@prefix chebi: <https://www.ebi.ac.uk/chebi/> .
 @prefix qunit: <http://qudt.org/vocab/unit/> .
+@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
+@prefix chebi: <https://www.ebi.ac.uk/chebi/> .
+@prefix onto: <https://w3id.org/listdb/onto#> .
 
 
-preloaded:mean_gregorian_month a datin:Unit;
+preloaded:mean_gregorian_month skos:closeMatch qunit:MO_MeanGREGORIAN;
     rdfs:label "mean gregorian month";
-    skos:closeMatch qunit:MO_MeanGREGORIAN.
+    a datin:Unit.

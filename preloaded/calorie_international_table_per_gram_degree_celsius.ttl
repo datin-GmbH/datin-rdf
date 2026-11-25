@@ -4,12 +4,12 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
-@prefix onto: <https://w3id.org/listdb/onto#> .
-@prefix chebi: <https://www.ebi.ac.uk/chebi/> .
 @prefix qunit: <http://qudt.org/vocab/unit/> .
+@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
+@prefix chebi: <https://www.ebi.ac.uk/chebi/> .
+@prefix onto: <https://w3id.org/listdb/onto#> .
 
 
-preloaded:calorie_international_table_per_gram_degree_celsius a datin:Unit;
+preloaded:calorie_international_table_per_gram_degree_celsius skos:closeMatch qunit:CAL_IT-PER-GM-DEG_C;
     rdfs:label "calorie (international table) per gram degree Celsius";
-    skos:closeMatch qunit:CAL_IT-PER-GM-DEG_C.
+    a datin:Unit.

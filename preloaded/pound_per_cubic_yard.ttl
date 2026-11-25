@@ -4,12 +4,12 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
-@prefix onto: <https://w3id.org/listdb/onto#> .
-@prefix chebi: <https://www.ebi.ac.uk/chebi/> .
 @prefix qunit: <http://qudt.org/vocab/unit/> .
+@prefix quantitykind: <http://qudt.org/vocab/quantitykind/> .
+@prefix chebi: <https://www.ebi.ac.uk/chebi/> .
+@prefix onto: <https://w3id.org/listdb/onto#> .
 
 
-preloaded:pound_per_cubic_yard a datin:Unit;
+preloaded:pound_per_cubic_yard skos:closeMatch qunit:LB-PER-YD3;
     rdfs:label "pound per cubic yard";
-    skos:closeMatch qunit:LB-PER-YD3.
+    a datin:Unit.
